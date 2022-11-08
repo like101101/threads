@@ -1,0 +1,19 @@
+#!/bin/bash
+#set -x
+cstart=${cstart:-100}
+cend=${cend:-10000000000}
+cinc=${cinc:-10}
+
+pgms=${pgms:-"./threads2Silent"}
+cases=${cases:-"1 2 3 4"}
+
+for c in $cases;
+do
+    for pgm in $pgms;
+    do
+	echo "count time" > ${pgm}_$c.times
+	for ((i=cstart; i<cend; i=i*cinc)); do
+	     $pgm $i $c
+	done 2>> ${pgm}_$c.times
+    done
+done

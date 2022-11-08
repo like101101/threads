@@ -1,13 +1,13 @@
 CPUTYPE=x86-64
-
+O=3
 .PHONY: clean
-CFLAGS := -g -march=$(CPUTYPE) -O3
+CFLAGS := -g -march=$(CPUTYPE) -O$(O)
 
 %.o: %.s
-	gcc ${CFLAGS} -c $< -o $@ 
+	gcc ${CFLAGS}  -c $< -o $@ 
 
 %.s: %.c
-	gcc ${CFLAGS} -S  $<
+	gcc ${CFLAGS} -masm=intel -S  $<
 
 all:threadsSilent threads2Silent
 
@@ -22,7 +22,7 @@ threads2: threads2.o
 
 
 
-threadsSilent: CFLAGS=-DSILENT
+threadsSilent: CFLAGS+=-DSILENT
 threadsSilent: threads.o 
 	gcc ${LDFLAGS} threads.o -o $@ -lpthread
 
@@ -32,3 +32,6 @@ threads2Silent: threads2.o
 
 clean:
 	rm -rf $(wildcard *.o threads.s threads2.s threads threadsSilent threads2 threads2Silent)
+
+distclean: clean
+	rm -rf $(wildcard *.times)
