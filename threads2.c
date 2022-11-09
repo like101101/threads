@@ -33,7 +33,7 @@ union Message {
 
 // Qinfo is one cache line that is an message index
 union QInfo{
-  int idx;
+  volatile int idx;
   char raw [CACHE_LINE_SIZE];
 };
 
