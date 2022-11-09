@@ -9,7 +9,7 @@ CFLAGS := -g -march=$(CPUTYPE) -O$(O)
 %.s: %.c
 	gcc ${CFLAGS} -masm=intel -S  $<
 
-all:threadsSilent threads2Silent
+all:threadsSilent threads2Silent threads threads2
 
 threads.o: threads.s
 threads2.o: threads2.s
