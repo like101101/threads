@@ -1,61 +1,151 @@
 i, latency, iterations, apporach
-1, 0.133423, 200000, independent client
-2, 0.131074, 200000, independent client
-3, 0.131533, 200000, independent client
-4, 0.132200, 200000, independent client
-5, 0.131781, 200000, independent client
-6, 0.133681, 200000, independent client
-7, 0.133100, 200000, independent client
-8, 0.133504, 200000, independent client
-9, 0.132833, 200000, independent client
-10, 0.132990, 200000, independent client
-1, 0.145523, 200000, client_work_pingpong
-2, 0.107250, 200000, client_work_pingpong
-3, 0.107275, 200000, client_work_pingpong
-4, 0.103704, 200000, client_work_pingpong
-5, 0.103010, 200000, client_work_pingpong
-6, 0.102550, 200000, client_work_pingpong
-7, 0.133427, 200000, client_work_pingpong
-8, 0.149468, 200000, client_work_pingpong
-9, 0.144852, 200000, client_work_pingpong
-10, 0.145721, 200000, client_work_pingpong
-1, 0.130437, 200000, server_client
-2, 0.130516, 200000, server_client
-3, 0.123348, 200000, server_client
-4, 0.129221, 200000, server_client
-5, 0.126278, 200000, server_client
-6, 0.121600, 200000, server_client
-7, 0.122099, 200000, server_client
-8, 0.176731, 200000, server_client
-9, 0.132396, 200000, server_client
-10, 0.122042, 200000, server_client
-1, 0.128636, 200000, server_client
-2, 0.126276, 200000, server_client
-3, 0.127359, 200000, server_client
-4, 0.128136, 200000, server_client
-5, 0.129991, 200000, server_client
-6, 0.128267, 200000, server_client
-7, 0.130313, 200000, server_client
-8, 0.122167, 200000, server_client
-9, 0.122564, 200000, server_client
-10, 0.121614, 200000, server_client
-1, 0.147532, 200000, client_work_pingpong
-2, 0.147951, 200000, client_work_pingpong
-3, 0.148238, 200000, client_work_pingpong
-4, 0.144379, 200000, client_work_pingpong
-5, 0.145888, 200000, client_work_pingpong
-6, 0.146634, 200000, client_work_pingpong
-7, 0.104757, 200000, client_work_pingpong
-8, 0.108136, 200000, client_work_pingpong
-9, 0.106350, 200000, client_work_pingpong
-10, 0.098117, 200000, client_work_pingpong
-1, 0.131209, 200000, independent client
-2, 0.131002, 200000, independent client
-3, 0.132143, 200000, independent client
-4, 0.132404, 200000, independent client
-5, 0.132448, 200000, independent client
-6, 0.128242, 200000, independent client
-7, 0.132142, 200000, independent client
-8, 0.132579, 200000, independent client
-9, 0.133454, 200000, independent client
-10, 0.131510, 200000, independent client
+1, 0.132439, 200000, independent client
+2, 0.132324, 200000, independent client
+3, 0.132666, 200000, independent client
+4, 0.132186, 200000, independent client
+5, 0.133131, 200000, independent client
+6, 0.132241, 200000, independent client
+7, 0.132210, 200000, independent client
+8, 0.106730, 200000, independent client
+9, 0.107052, 200000, independent client
+10, 0.106314, 200000, independent client
+11, 0.106418, 200000, independent client
+12, 0.106183, 200000, independent client
+13, 0.106279, 200000, independent client
+14, 0.105945, 200000, independent client
+15, 0.106193, 200000, independent client
+16, 0.106043, 200000, independent client
+17, 0.130582, 200000, independent client
+18, 0.131305, 200000, independent client
+19, 0.131181, 200000, independent client
+20, 0.130876, 200000, independent client
+21, 0.130674, 200000, independent client
+22, 0.131086, 200000, independent client
+23, 0.131127, 200000, independent client
+24, 0.132932, 200000, independent client
+25, 0.133348, 200000, independent client
+26, 0.132392, 200000, independent client
+27, 0.133365, 200000, independent client
+28, 0.130459, 200000, independent client
+29, 0.131418, 200000, independent client
+30, 0.131659, 200000, independent client
+31, 0.131687, 200000, independent client
+32, 0.130918, 200000, independent client
+33, 0.131477, 200000, independent client
+34, 0.132669, 200000, independent client
+35, 0.131562, 200000, independent client
+36, 0.131042, 200000, independent client
+37, 0.130956, 200000, independent client
+38, 0.132348, 200000, independent client
+39, 0.131235, 200000, independent client
+40, 0.130919, 200000, independent client
+41, 0.131209, 200000, independent client
+42, 0.131486, 200000, independent client
+43, 0.130977, 200000, independent client
+44, 0.131152, 200000, independent client
+45, 0.132442, 200000, independent client
+46, 0.131244, 200000, independent client
+47, 0.133326, 200000, independent client
+48, 0.132881, 200000, independent client
+49, 0.132572, 200000, independent client
+50, 0.130728, 200000, independent client
+1, 0.120168, 200000, client_work_pingpong
+2, 0.119098, 200000, client_work_pingpong
+3, 0.122601, 200000, client_work_pingpong
+4, 0.129224, 200000, client_work_pingpong
+5, 0.136479, 200000, client_work_pingpong
+6, 0.143547, 200000, client_work_pingpong
+7, 0.138236, 200000, client_work_pingpong
+8, 0.117869, 200000, client_work_pingpong
+9, 0.136053, 200000, client_work_pingpong
+10, 0.143426, 200000, client_work_pingpong
+11, 0.147258, 200000, client_work_pingpong
+12, 0.145091, 200000, client_work_pingpong
+13, 0.148649, 200000, client_work_pingpong
+14, 0.144903, 200000, client_work_pingpong
+15, 0.147409, 200000, client_work_pingpong
+16, 0.145767, 200000, client_work_pingpong
+17, 0.145800, 200000, client_work_pingpong
+18, 0.145393, 200000, client_work_pingpong
+19, 0.145391, 200000, client_work_pingpong
+20, 0.148250, 200000, client_work_pingpong
+21, 0.149474, 200000, client_work_pingpong
+22, 0.145056, 200000, client_work_pingpong
+23, 0.148753, 200000, client_work_pingpong
+24, 0.147246, 200000, client_work_pingpong
+25, 0.102894, 200000, client_work_pingpong
+26, 0.104796, 200000, client_work_pingpong
+27, 0.103610, 200000, client_work_pingpong
+28, 0.123275, 200000, client_work_pingpong
+29, 0.104114, 200000, client_work_pingpong
+30, 0.133173, 200000, client_work_pingpong
+31, 0.145749, 200000, client_work_pingpong
+32, 0.108061, 200000, client_work_pingpong
+33, 0.104320, 200000, client_work_pingpong
+34, 0.104229, 200000, client_work_pingpong
+35, 0.104379, 200000, client_work_pingpong
+36, 0.104420, 200000, client_work_pingpong
+37, 0.131065, 200000, client_work_pingpong
+38, 0.145011, 200000, client_work_pingpong
+39, 0.107307, 200000, client_work_pingpong
+40, 0.107600, 200000, client_work_pingpong
+41, 0.126543, 200000, client_work_pingpong
+42, 0.145307, 200000, client_work_pingpong
+43, 0.145293, 200000, client_work_pingpong
+44, 0.107325, 200000, client_work_pingpong
+45, 0.131234, 200000, client_work_pingpong
+46, 0.145514, 200000, client_work_pingpong
+47, 0.148207, 200000, client_work_pingpong
+48, 0.148087, 200000, client_work_pingpong
+49, 0.143763, 200000, client_work_pingpong
+50, 0.146817, 200000, client_work_pingpong
+1, 0.116042, 200000, server_client
+2, 0.121631, 200000, server_client
+3, 0.124571, 200000, server_client
+4, 0.118556, 200000, server_client
+5, 0.122404, 200000, server_client
+6, 0.117664, 200000, server_client
+7, 0.117764, 200000, server_client
+8, 0.117315, 200000, server_client
+9, 0.115742, 200000, server_client
+10, 0.117764, 200000, server_client
+11, 0.116098, 200000, server_client
+12, 0.117180, 200000, server_client
+13, 0.122950, 200000, server_client
+14, 0.123300, 200000, server_client
+15, 0.128824, 200000, server_client
+16, 0.127107, 200000, server_client
+17, 0.118292, 200000, server_client
+18, 0.124789, 200000, server_client
+19, 0.119107, 200000, server_client
+20, 0.121983, 200000, server_client
+21, 0.128548, 200000, server_client
+22, 0.130912, 200000, server_client
+23, 0.125555, 200000, server_client
+24, 0.129125, 200000, server_client
+25, 0.121288, 200000, server_client
+26, 0.122740, 200000, server_client
+27, 0.122769, 200000, server_client
+28, 0.126167, 200000, server_client
+29, 0.127865, 200000, server_client
+30, 0.127847, 200000, server_client
+31, 0.126876, 200000, server_client
+32, 0.127891, 200000, server_client
+33, 0.128175, 200000, server_client
+34, 0.128311, 200000, server_client
+35, 0.126760, 200000, server_client
+36, 0.126437, 200000, server_client
+37, 0.126975, 200000, server_client
+38, 0.127075, 200000, server_client
+39, 0.126627, 200000, server_client
+40, 0.130130, 200000, server_client
+41, 0.126759, 200000, server_client
+42, 0.129247, 200000, server_client
+43, 0.128174, 200000, server_client
+44, 0.128131, 200000, server_client
+45, 0.126398, 200000, server_client
+46, 0.127136, 200000, server_client
+47, 0.128883, 200000, server_client
+48, 0.125859, 200000, server_client
+49, 0.126640, 200000, server_client
+50, 0.127176, 200000, server_client

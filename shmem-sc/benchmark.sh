@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOOP_COUNT=10
+LOOP_COUNT=50
 ITERATIONS=200000
 
 make clean
