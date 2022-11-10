@@ -1,7 +1,7 @@
 CPUTYPE=x86-64
 O=3
 .PHONY: clean
-CFLAGS := -g -march=$(CPUTYPE) -O$(O) -lrt
+DFLAGS := -g -march=$(CPUTYPE) -O$(O) -lrt
 
 all: ipc_client independent_client pingpong_client server pingpong_server
 
