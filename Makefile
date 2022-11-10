@@ -16,12 +16,12 @@ CFLAGS := -g -march=$(CPUTYPE) -O$(O)
 all: bm.NOPLOOP_LOCAL_WORK
 
 bm.NOPLOOP_LOCAL_WORK: main.NOPLOOP_LOCAL_WORK.o work.o
-	gcc ${CFLAGS} -DWORK=Work_NOPLOOP -DLOCAL_WORK $? -o $@
+	gcc ${CFLAGS} -DWORK=Work_NOPLOOP -DLOCAL_WORK $^ -o $@
 
-work.o: work.c
+work.o: work.c work.h now.h remote.h
 	gcc ${CFLAGS} -c $<
 
-main.NOPLOOP_LOCAL_WORK.o: main.c work.h now.h
+main.NOPLOOP_LOCAL_WORK.o: main.c work.h now.h remote.h
 	gcc ${CFLAGS} -c -DWORK=Work_NOPLOOP -DLOCAL_WORK $< -o $@
 
 

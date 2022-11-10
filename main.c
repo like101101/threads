@@ -8,7 +8,7 @@
 #include "work.h"
 #include "now.h"
 
-#define USAGE "%s <iterations>\n"
+#define USAGE "%s <iterations> <cpu0> <cpu1>\n"
 #define VERBOSE
 
 int pinCpu(int cpu)
