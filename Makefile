@@ -44,7 +44,7 @@ threads2Silent: threads2.o
 	gcc ${LDFLAGS} threads2.o -o $@ -lpthread
 
 clean:
-	rm -rf $(wildcard *.o bm_*)
+	rm -rf $(wildcard *.o bm_* bm.* threads threads2 threadsSilent threads2Silent)
 
 distclean: clean
 	rm -rf $(wildcard *.times)

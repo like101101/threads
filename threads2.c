@@ -37,6 +37,7 @@ union QInfo{
   char raw [CACHE_LINE_SIZE];
 };
 
+
 // Queue of messages index indicates next free message
 // Two queues :
 // Request Q: written by client read by server

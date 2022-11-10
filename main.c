@@ -34,6 +34,9 @@ int pinCpu(int cpu)
     
 }
 
+inline void preWork() {}
+inline void postWork() {}
+
 int
 main(int argc, char *argv[])
 {
@@ -55,11 +58,13 @@ main(int argc, char *argv[])
   
   startTSC = now();
   while (iters) {
+    preWork();
 #ifdef LOCAL_WORK
     doWork();
 #elif LOCAL_WORK_WITH_REMOTE
 #elif REMOTE_WORK
 #endif
+    postWork();    
     iters--;
   }
   endTSC = now();
