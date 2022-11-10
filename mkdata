@@ -5,7 +5,7 @@ cend=${cend:-10000000000}
 cinc=${cinc:-10}
 
 pgms=${pgms:-"./threads2Silent"}
-cases=${cases:-"1 2 3 4"}
+cases=${cases:-"1 2 3"}
 
 for c in $cases;
 do
