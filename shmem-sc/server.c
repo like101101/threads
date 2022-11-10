@@ -5,7 +5,7 @@
 
 #include "ipc.h"
 
-#define WRITE_LOC "tmp.txt"
+#define WRITE_LOC "/dev/null"
 #define WRITE_BUF "0000000000"
 #define BUF_LEN 10
 
